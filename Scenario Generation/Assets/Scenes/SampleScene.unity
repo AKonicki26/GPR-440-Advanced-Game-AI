@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 301439694}
-  - component: {fileID: 301439693}
+  - component: {fileID: 301439695}
   m_Layer: 0
   m_Name: Dungeon
   m_TagString: Untagged
@@ -140,7 +140,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &301439693
+--- !u!4 &301439694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301439692}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &301439695
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -152,21 +167,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 822ba38bf32ab1c41a9979030a1b4fcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &301439694
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301439692}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.059162, y: -0.86605644, z: 10.013508}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  roomPrefabs:
+  - {fileID: 2025235736786558680, guid: c47b1e7a8d29dcd4383d5d8e7e397e1f, type: 3}
+  - {fileID: 8664406767109994775, guid: 650cf0823008fb64bbc70688a6782b7e, type: 3}
+  - {fileID: 2025235736786558680, guid: f2e2890e6639aca41ba568967b06c419, type: 3}
+  - {fileID: 2025235736786558680, guid: 081117e72f15de34eb071fc3967aadb3, type: 3}
+  - {fileID: 2025235736786558680, guid: aac2de5a7b7d5274bbb58db0915d6e71, type: 3}
+  - {fileID: 7089347146407212217, guid: b15670b368c4db341a58f1244d760fff, type: 3}
+  UnusedConnectors: []
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
